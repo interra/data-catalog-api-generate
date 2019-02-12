@@ -1,0 +1,27 @@
+title: Organization
+description: A simple organization.
+type: object
+required:
+- name
+- identifier
+- created
+- refreshed
+properties:
+  name:
+    type: string
+    title: Title
+  identifier:
+    type: string
+    title: Identifier
+    description: Unique identifier for organization.
+  description:
+    type: string
+    title: Description
+  created:
+    type: string
+    title: Created
+    pattern: "[0-9]{4}-[0-9]{2}-[0-9]{2}"
+  refreshed:
+    type: string
+    title: Last Refresh Date
+    pattern: "[0-9]{4}-[0-9]{2}-[0-9]{2}"

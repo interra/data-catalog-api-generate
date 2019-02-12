@@ -1,0 +1,31 @@
+{
+  "name": "data-catalog-generate",
+  "version": "1.0.0",
+  "description": "Generate APIs for Open Data Catalogs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.9.1",
+    "async": "^2.6.1",
+    "aws-sdk": "^2.401.0",
+    "axios": "^0.18.0",
+    "caporal": "^1.1.0",
+    "elasticlunr": "^0.9.5",
+    "fs-extra": "^7.0.1",
+    "json-schema-ref-parser": "^6.0.3",
+    "lodash": "^4.17.11",
+    "slug": "^0.9.3",
+    "uuidv4": "^3.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
